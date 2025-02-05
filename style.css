@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* .service-container section{
+    display: inline-block;
+} */
+.service-container{
+    /* width: 100%; */
+    display: inline-block;
+    margin-top: 100px;
+    height: 100vh;
+    margin-bottom: 50px;
+    
+    /* background-color: rgb(255, 0, 0); */
+}
+.service-container .top{
+    width: 48%;
+    margin: 0 auto;
+}
+.service-container .top h1{
+    text-align: center;
+    font-weight:500;
+    font-size: 52px;
+    margin-bottom: 20px;
+    
+}
+.service-container .top p
+{
+    text-align: center;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 500;
+}
+.service-container .bottom{
+    /* width: 100%; */
+    margin:60px auto;
+    width: 90%;
+    /* background-color: orangered; */
+}
+.service-container .bottom .c {
+    display: inline-block;
+    /* background-color: red; */
+    width: 23%;
+    margin-right: 21px;
+}
+.service-container .bottom .c img {
+    margin-bottom: 30px;
+}
+.service-container .bottom .c h3{
+    margin-bottom: 30px;
+}
+.about{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    /* padding-top: 100px; */
+    position: relative;
+    /* background-color: rebeccapurple; */
+}
+.about .about-p-1{
+    display: inline-block;
+    position: absolute;
+    left: 7%;
+    top: 70px;
+    font-size:19px;
+}
+.about .sign-pic{
+    position: absolute;
+}
+
+.about-bottom{
+    position: relative;
+    /* background-color: rgba(255, 68, 0, 0.482); */
+    /* height: 600px; */
+}
+
+
+ .about-bottom img{
+position: absolute;
+left: 7%;
+top: 230px;
+
+} 
+.about-bottom-side{
+   position: absolute;
+   left: 20%;
+   top: 276px; 
+}
+.follow-insta{
+    width: 86%;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+   
+    height: 800px;
+
+    /* text-align: center; */
+}
+
+.follow-insta .follow-insta-1{
+    text-align: center;
+    margin-bottom: 85px;
+}
+.follow-insta-2{
+    
+     /* height: 3000px;  */
+    /* background-color: brown; */
+    
+}
+.follow-insta .follow-insta-2 .image1{
+    float: left;
+}
+.follow-insta .follow-insta-2 .image2{
+    float: right;
+}
+.follow-insta .follow-insta-1 p{
+    width: 50%;
+    /* background-color: blueviolet; */
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.follow-insta .follow-insta-1 h1{
+    /* font-family: sans-serif; */
+    font-size: 53px;
+    font-weight: 600;
+    margin-bottom: 33px;
+}
+.footer{
+    position: relative;
+    background-image: url(images/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+}
+.footer .footer-1{
+    position: absolute;
+    width: 43%;
+    height: 90%;
+    top: 11%;
+}
+.footer .footer-2{
+    position: absolute;
+    left: 62%;
+    top:12% ;
+    width: 20% ;
+    
+}
+.icons-footer div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(26,34,67);
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.icons-footer div i{
+    color: rgb(190,146,120);;
+}
+.footer-2 p{
+    color: white;
+    margin-bottom: 50px;
+    line-height: 35px;
+    
+}
+.footer-2 h5{
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: 400;
+    color: rgb(190,146,120);
+}
+.footer-2 h6{
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(190,146,120);
+}
+.footer-2 img{
+    margin-bottom: 30px;
+}
+.footer .footer-3{
+    position: absolute;
+    right: 4%;
+    top: 11%;
+}
+.footer .footer-3 h4{
+    margin-bottom: 48px;
+    color: rgb(190,146,120);
+    font-size: 24px;
+    font-weight: 600;
+}
+.footer .footer-3 ul li{
+    list-style: none;
+    color: white;
+    margin-bottom: 30px;
+}
+.footer .footer-3 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer .footer-3 ul li a:hover{
+    text-decoration: underline;
+    color: rgb(190,146,120);
+}
+.footer .p-footer{
+    position: absolute;
+    bottom: 30px;
+    right: 4%;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.p-footer span{
+    color: rgb(190,146,120);
+    font-size: 14px;
+    font-weight:400;
+}
